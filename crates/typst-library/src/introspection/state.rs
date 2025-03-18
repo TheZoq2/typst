@@ -373,7 +373,7 @@ cast! {
 
 /// Executes a display of a state.
 #[elem(Construct, Locatable, Show)]
-struct StateUpdateElem {
+pub struct StateUpdateElem {
     /// The key that identifies the state.
     #[required]
     key: Str,
